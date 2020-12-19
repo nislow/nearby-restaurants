@@ -1,0 +1,138 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.wrapper {
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+main>* {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 50px auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 5px 0px 0px 5px
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: rgb(0, 1, 2);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px
+}
+
+form. button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+li {
+  list-style: none;
+}
+
+input[type='submit'] {
+  margin-bottom: 25px;
+  width: 60%;
+  border: 1px solid lightgrey;
+}
+
+input[type='submit']:hover {
+  cursor: pointer;
+}
+
+input[type='submit']:focus {
+  outline: none;
+}
+
+.result-card {
+  width: 60%;
+  margin: 50px;
+  padding: 10px;
+  padding: 4rem 8rem;
+  display: inline-block;
+  border: 3px solid #333333;
+  font-size: 1.5rem;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  background: #ffffff;
+  position: relative;
+}
+
+.resultHeader>* {
+  margin: 0 0 10px 0;
+  text-align: left;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.cuisine li {
+  font-size: larger;
+  background-color: white;
+  padding: 12px 12px 15px;
+  margin-bottom: 10px;
+  list-style: none;
+  border: 3px solid #333333;
+  font-size: 1.5rem;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  background: #ffffff;
+  position: relative;
+}
+
+.cuisine li:hover {
+  background-color: rgb(188, 198, 207);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cuisine__container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.cuisine-list {
+  margin-top: 20px;
+  margin-left: -100px;
+}
+
+.body__section {
+  display: flex;
+}
+
+;

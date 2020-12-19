@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Restaurant Finder App</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <main>
+            <h1>Restaurant <span>Search</span></h1>
+            <div class="form__wrapper">
+                <form class="example" style="margin:auto;max-width:600px">
+                    <input type="text" class="inputSearch"
+                        placeholder="Click on search button to find neareast restaurants to you..." disabled>
+                    <button type="submit" id="submitSearch"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </main>
+        <hr>
+        <div class="body__section">
+            <section class="cuisines">
+                <div class="cuisine__container">
+
+                    <div class="cuisine-list">
+                        <div class="cuisineTitle">
+                            <h2>Choose type of cuisine:</h2>
+                        </div>
+                        <ul class="cuisine">
+                        </ul>
+                    </div>
+                </div>
+        
+        </section>
+        <section id="restaurant-results">
+        </section>
+        <div class="result-card">
+
+            <div class="resultHeader">
+                <img class="photo" alt="">
+            </div>
+
+
+            <div class="singleResultInfo"></div>
+        </div>
+    </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
